@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import "animate.css";
+import "../contactus/ContactUs.css";
 
 function ContactUs() {
   const [name, setName] = useState("");
@@ -13,7 +14,7 @@ function ContactUs() {
   }
 
   return (
-    <div className="container">
+    <div ref={null} id="Contact-section" className="container">
       <h1>Contact Us</h1>
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="formName">

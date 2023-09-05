@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/logo fmic.png";
+import Logo from "../Route/assets/logo fmic.png";
 
 function NavBar() {
   // <div class="alert alert-success mt-2" role="alert">
@@ -10,10 +10,12 @@ function NavBar() {
     const alert = document.createElement("div");
     alert.classList.add("alert", "alert-success", "mt-2");
     alert.setAttribute("role", "alert");
+    // I have just sent you an email with your download link. Check your inbox!
+
     alert.textContent =
-      `Send Email ${email.substring(0, 12)}` +
+      `I have just sent you an email at ${email.substring(0, 12)}` +
       "******" +
-      "           has been Successfully";
+      "           . Check your inbox!";
 
     if (email.length >= 12) {
       const form = document.querySelector(".d-block.mt-3");
