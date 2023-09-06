@@ -17,11 +17,6 @@ function App() {
       <FooterPage />
     </div>
   );
-  {
-    /* <Router>
-  <Route></Route>
-</Router>; */
-  }
 }
 
 export default App;
