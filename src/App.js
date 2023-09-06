@@ -6,6 +6,7 @@ import ContactUs from "../src/Route/contactus/ContactUs";
 import AboutUs from "../src/Route/AboutUs/AboutUs";
 import Marketing from "../src/Route/marketing/Marketing";
 import FooterPage from "../src/Route/Footer/FooterPage";
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,11 @@ function App() {
       <FooterPage />
     </div>
   );
+  {
+    /* <Router>
+  <Route></Route>
+</Router>; */
+  }
 }
 
 export default App;

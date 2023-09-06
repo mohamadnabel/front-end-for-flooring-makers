@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   faEnvelope,
   faInstagram,
@@ -6,16 +6,11 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-// function MyComponent() {
-//   return (
-//     <div>
-//       <FontAwesomeIcon icon={faAddressBook} />
-//     </div>
-//   );
-// }
-
 export default function FooterPage() {
+  const [showPhoneNo, setShowPhoneNo] = useState(false);
+  const onClickShowPhoneNo = () => {
+    setShowPhoneNo(true);
+  };
   return (
     <div>
       <div class="container">
@@ -38,7 +33,6 @@ export default function FooterPage() {
                 <svg
                   onClick={(e) => {
                     e.preventDefault();
-                    alert("Click has been successful");
                   }}
                   class="bi"
                   width="24"
@@ -53,8 +47,8 @@ export default function FooterPage() {
               <a class="text-body-secondary" href="#">
                 <svg
                   onClick={(e) => {
-                    alert("Click has been successful");
                     e.preventDefault();
+                    onClickShowPhoneNo();
                   }}
                   class="bi"
                   width="24"
@@ -67,8 +61,8 @@ export default function FooterPage() {
             <li class="ms-3">
               <a class="text-body-secondary" href="#">
                 <svg
-                  onClick={(e) => {
-                    alert("Click has been successful");
+                  onMouseOver={(e) => {
+                    onClickShowPhoneNo();
                     e.preventDefault();
                   }}
                   class="bi"
