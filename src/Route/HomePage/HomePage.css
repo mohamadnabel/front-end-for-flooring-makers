@@ -1,27 +1,33 @@
-.center {
-  padding-top: 25%;
-  display: inherit;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.Carusel-Home {
+  max-height: 100px;
 }
-
-/* body {
-  background-image: url("../assets/floor2background.jpg");
-  background-size: contain ;
-  background-repeat: no-repeat;
-  max-height:fit-content;
+/* .center { */
+/* padding-top: 25%; */
+/* display: inherit;
+  justify-content: center;
+  margin-bottom: 0%;
+  align-items: center; */
+/* height: 100vh; */
+/* margin-bottom: 10%;
+} */
+/* html {
+  scroll-behavior: smooth;
 } */
 
-body {
+/* body { */
+/* background-size: cover; */
+/* background-position: top; */
+/* padding-top: 30%; */
+
+/* background-repeat: no-repeat;
   background-image: url("../assets/floor2background.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  max-height: fit-content;
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-size: cover;
-  }
-}
+  max-height: fit-content; */
+/* padding-top: 15%; */
+/* margin-bottom: 20%; */
+/* } */
+/* .Text-homepage {
+  font-size: 20px;
+  margin-top: 10%;
+} */
