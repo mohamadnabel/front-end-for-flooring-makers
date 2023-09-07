@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/flooring-makers/static/css/main.d424a941.css",
-    "main.js": "/flooring-makers/static/js/main.0e2baba9.js",
-    "static/js/787.ef231899.chunk.js": "/flooring-makers/static/js/787.ef231899.chunk.js",
-    "static/media/supply.jpg": "/flooring-makers/static/media/supply.b34f3f15ae3db0912331.jpg",
-    "static/media/installtion.jpg": "/flooring-makers/static/media/installtion.ad75b7534854262e32e9.jpg",
-    "static/media/floor2background.jpg": "/flooring-makers/static/media/floor2background.9b7b4ccccd421e9139f1.jpg",
-    "static/media/self-level (2).jpg": "/flooring-makers/static/media/self-level (2).50165dafd975929879a9.jpg",
-    "static/media/GreyBack.jpg": "/flooring-makers/static/media/GreyBack.72b37e321be794da0794.jpg",
-    "static/media/Hospital-Flooring.png": "/flooring-makers/static/media/Hospital-Flooring.d783187426365ae68e65.png",
-    "static/media/logo fmic.png": "/flooring-makers/static/media/logo fmic.8bae22542e96a4b54acd.png",
-    "index.html": "/flooring-makers/index.html",
-    "main.d424a941.css.map": "/flooring-makers/static/css/main.d424a941.css.map",
-    "main.0e2baba9.js.map": "/flooring-makers/static/js/main.0e2baba9.js.map",
-    "787.ef231899.chunk.js.map": "/flooring-makers/static/js/787.ef231899.chunk.js.map"
+    "main.css": "/front-end-for-flooring-makers/static/css/main.b6ef4f96.css",
+    "main.js": "/front-end-for-flooring-makers/static/js/main.e64017dc.js",
+    "static/js/787.ef231899.chunk.js": "/front-end-for-flooring-makers/static/js/787.ef231899.chunk.js",
+    "static/media/supply.jpg": "/front-end-for-flooring-makers/static/media/supply.b34f3f15ae3db0912331.jpg",
+    "static/media/installtion.jpg": "/front-end-for-flooring-makers/static/media/installtion.ad75b7534854262e32e9.jpg",
+    "static/media/floor2background.jpg": "/front-end-for-flooring-makers/static/media/floor2background.9b7b4ccccd421e9139f1.jpg",
+    "static/media/self-level (2).jpg": "/front-end-for-flooring-makers/static/media/self-level (2).50165dafd975929879a9.jpg",
+    "static/media/GreyBack.jpg": "/front-end-for-flooring-makers/static/media/GreyBack.72b37e321be794da0794.jpg",
+    "static/media/Hospital-Flooring.png": "/front-end-for-flooring-makers/static/media/Hospital-Flooring.d783187426365ae68e65.png",
+    "static/media/logo fmic.png": "/front-end-for-flooring-makers/static/media/logo fmic.8bae22542e96a4b54acd.png",
+    "index.html": "/front-end-for-flooring-makers/index.html",
+    "main.b6ef4f96.css.map": "/front-end-for-flooring-makers/static/css/main.b6ef4f96.css.map",
+    "main.e64017dc.js.map": "/front-end-for-flooring-makers/static/js/main.e64017dc.js.map",
+    "787.ef231899.chunk.js.map": "/front-end-for-flooring-makers/static/js/787.ef231899.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d424a941.css",
-    "static/js/main.0e2baba9.js"
+    "static/css/main.b6ef4f96.css",
+    "static/js/main.e64017dc.js"
   ]
 }
