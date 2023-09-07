@@ -80,6 +80,7 @@ function HomePage() {
           <Carousel.Item key={index}>
             {/* <span></span> */}
             <img
+            id="carousel-img"
               className="d-block w-100"
               src={images[getRandomInt(images.length)]}
               alt={`Slide ${index + 1}`}

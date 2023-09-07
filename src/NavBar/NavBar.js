@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../Route/assets/logo fmic.png";
+import { Link } from "react-router-dom";
+import ContactUs from "../Route/contactus/ContactUs";
 
 function NavBar() {
   // <div class="alert alert-success mt-2" role="alert">
@@ -93,9 +95,9 @@ function NavBar() {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <Link to="/contact" class="nav-link">
                     Contacts Us
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item dropdown">
                   <a
